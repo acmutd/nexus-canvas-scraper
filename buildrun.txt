@@ -1,0 +1,19 @@
+To Run Locally: 
+docker build -t scraper .
+docker run --rm -p 9000:8080 --env-file .env scraper
+
+call: localhost:9000/scrape
+
+TESTING: 
+POST reqeust
+URL: http://localhost:9000/scrape
+Body: raw JSON
+
+{
+  "netid": "yourid",
+  "password": "yourpass"
+}
+
+---------------------------------------------------------------------------
+ignore for pushing on ecr:
+docker build --platform linux/amd64 -t nexus-scraper .

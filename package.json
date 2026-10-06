@@ -1,0 +1,33 @@
+{
+  "name": "blackboard-scraper",
+  "version": "1.0.0",
+  "description": "A Playwright-based scraper for UTD Blackboard courses",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blackboard",
+    "scraper",
+    "playwright",
+    "utd"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.54.2",
+    "chrome-aws-lambda": "^10.1.0",
+    "dotenv": "^16.4.1",
+    "express": "^5.1.0",
+    "playwright": "^1.42.1",
+    "playwright-core": "^1.54.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

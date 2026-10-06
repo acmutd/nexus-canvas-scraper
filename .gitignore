@@ -1,0 +1,7 @@
+node_modules
+.envrc
+.env
+# If you want to keep compiled artifacts or OS files ignored
+.DS_Store
+coverage
+scraper-test.js
